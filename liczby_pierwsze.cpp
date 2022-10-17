@@ -17,10 +17,10 @@ int main()
 		}
 	}
 
-	if (!zlozony) {
-		cout << "Liczba jest pierwsza";
+	if (zlozony) {
+		cout << "Liczba jest zlozona";
 	}
 	else {
-		cout << "Liczba jest zlozona";
+		cout << "Liczba jest pierwsza";
 	}
 }
